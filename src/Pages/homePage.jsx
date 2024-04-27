@@ -11,16 +11,14 @@ import Testimonial from '../Componends/testimonial'
 export default function HomePage() {
   return (
     <>
-    <About/>
-    <Service/>
-    <Destination/>
-    <Package/>
-    <Booking/>
-    <Process/>
-    <Team/>
-    <Testimonial/>
-    
-
+      <About />
+      <Service />
+      <Destination />
+      <Package />
+      <Booking />
+      <Process />
+      <Team />
+      <Testimonial />
     </>
   )
 }

@@ -6,9 +6,8 @@ import Booking from '../Componends/booking'
 function BookingPage() {
   return (
     <>
-    
-    <Process/>
-    <Booking/>
+      <Process />
+      <Booking />
     </>
   )
 }

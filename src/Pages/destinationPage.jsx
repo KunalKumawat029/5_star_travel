@@ -4,8 +4,7 @@ import Destination from '../Componends/destination'
 export default function DestinationPage() {
   return (
     <>
-    <Destination/>
-    
+      <Destination />
     </>
   )
 }

@@ -5,8 +5,8 @@ import Testimonial from '../Componends/testimonial'
 export default function ServicesPage() {
   return (
     <>
-    <Service/>
-    <Testimonial/>
+      <Service />
+      <Testimonial />
     </>
   )
 }
