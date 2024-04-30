@@ -4,8 +4,7 @@ import Service from '../Componends/service'
 import Destination from '../Componends/destination'
 import Package from '../Componends/package'
 import Booking from '../Componends/booking'
-import Process from '../Componends/process'
-import Team from '../Componends/team'
+
 import Testimonial from '../Componends/testimonial'
 
 export default function HomePage() {
@@ -16,8 +15,8 @@ export default function HomePage() {
       <Destination />
       <Package />
       <Booking />
-      <Process />
-      <Team />
+    
+      
       <Testimonial />
     </>
   )

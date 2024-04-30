@@ -20,17 +20,10 @@ export default function Booking() {
                   Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
                   diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
                   lorem sit clita duo justo magna dolore erat amet
-<<<<<<< HEAD
-                </p>
-                <Link className="btn btn-outline-light py-3 px-5 mt-2" to="">
-                  Read More
-                </Link>
-=======
                 </p> */}
                 <a className="btn btn-outline-light py-3 px-5 mt-2" href="">
                 Inquiry now
                 </a>
->>>>>>> a81ffe7196643ec41a3bd3bff26e085c54591bb5
               </div>
               <div className="col-md-6">
                 <h1 className="text-white mb-4"> Inquiry for Tour </h1>

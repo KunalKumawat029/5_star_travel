@@ -14,15 +14,15 @@ export default function Topbar() {
             >
               <small className="me-3 text-light">
                 <i className="fa fa-map-marker-alt me-2" />
-                123 Street, New York, USA
+                202PEARL BUSSINES PARK, INDORE,INDIA
               </small>
               <small className="me-3 text-light">
                 <i className="fa fa-phone-alt me-2" />
-                +012 345 6789
+                +91 72555*****
               </small>
               <small className="text-light">
                 <i className="fa fa-envelope-open me-2" />
-                info@example.com
+                5startravel@example.com
               </small>
             </div>
           </div>
