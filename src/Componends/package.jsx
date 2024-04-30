@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Package() {
   return (
@@ -44,20 +45,20 @@ export default function Package() {
                     amet diam eos
                   </p>
                   <div className="d-flex justify-content-center mb-2">
-                    <a
-                      href="#"
+                    <Link
+                      to="#"
                       className="btn btn-sm btn-primary px-3 border-end"
                       style={{ borderRadius: "30px 0 0 30px" }}
                     >
                       Read More
-                    </a>
-                    <a
-                      href="#"
+                    </Link>
+                    <Link
+                      to="#"
                       className="btn btn-sm btn-primary px-3"
                       style={{ borderRadius: "0 30px 30px 0" }}
                     >
                       Book Now
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -93,20 +94,20 @@ export default function Package() {
                     amet diam eos
                   </p>
                   <div className="d-flex justify-content-center mb-2">
-                    <a
-                      href="#"
+                    <Link
+                      to="#"
                       className="btn btn-sm btn-primary px-3 border-end"
                       style={{ borderRadius: "30px 0 0 30px" }}
                     >
                       Read More
-                    </a>
-                    <a
-                      href="#"
+                    </Link>
+                    <Link
+                      to="#"
                       className="btn btn-sm btn-primary px-3"
                       style={{ borderRadius: "0 30px 30px 0" }}
                     >
                       Book Now
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -142,20 +143,20 @@ export default function Package() {
                     amet diam eos
                   </p>
                   <div className="d-flex justify-content-center mb-2">
-                    <a
-                      href="#"
+                    <Link
+                      to="#"
                       className="btn btn-sm btn-primary px-3 border-end"
                       style={{ borderRadius: "30px 0 0 30px" }}
                     >
                       Read More
-                    </a>
-                    <a
-                      href="#"
+                    </Link>
+                    <Link
+                      to="#"
                       className="btn btn-sm btn-primary px-3"
                       style={{ borderRadius: "0 30px 30px 0" }}
                     >
                       Book Now
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

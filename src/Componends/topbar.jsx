@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Topbar() {
   return (
@@ -30,36 +31,36 @@ export default function Topbar() {
               className="d-inline-flex align-items-center"
               style={{ height: 45 }}
             >
-              <a
+              <Link
                 className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-                href=""
+                  to=""
               >
                 <i className="fab fa-twitter fw-normal" />
-              </a>
-              <a
+              </Link>
+              <Link
                 className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-                href=""
+                to=""
               >
                 <i className="fab fa-facebook-f fw-normal" />
-              </a>
-              <a
+              </Link>
+              <Link
                 className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-                href=""
+                to=""
               >
                 <i className="fab fa-linkedin-in fw-normal" />
-              </a>
-              <a
+              </Link>
+              <Link
                 className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-                href=""
+                to=""
               >
                 <i className="fab fa-instagram fw-normal" />
-              </a>
-              <a
+              </Link>
+              <Link
                 className="btn btn-sm btn-outline-light btn-sm-square rounded-circle"
-                href=""
+                to=""
               >
                 <i className="fab fa-youtube fw-normal" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Booking() {
   return (
@@ -20,9 +21,9 @@ export default function Booking() {
                   diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
                   lorem sit clita duo justo magna dolore erat amet
                 </p>
-                <a className="btn btn-outline-light py-3 px-5 mt-2" href="">
+                <Link className="btn btn-outline-light py-3 px-5 mt-2" to="">
                   Read More
-                </a>
+                </Link>
               </div>
               <div className="col-md-6">
                 <h1 className="text-white mb-4">Book A Tour</h1>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Team() {
   return (
@@ -22,15 +23,15 @@ export default function Team() {
                   className="position-relative d-flex justify-content-center"
                   style={{ marginTop: "-19px" }}
                 >
-                  <a className="btn btn-square mx-1" href="">
+                  <Link className="btn btn-square mx-1" to="">
                     <i className="fab fa-facebook-f" />
-                  </a>
-                  <a className="btn btn-square mx-1" href="">
+                  </Link>
+                  <Link className="btn btn-square mx-1" to="">
                     <i className="fab fa-twitter" />
-                  </a>
-                  <a className="btn btn-square mx-1" href="">
+                  </Link>
+                  <Link className="btn btn-square mx-1" to="">
                     <i className="fab fa-instagram" />
-                  </a>
+                  </Link>
                 </div>
                 <div className="text-center p-4">
                   <h5 className="mb-0">Full Name</h5>
@@ -47,15 +48,15 @@ export default function Team() {
                   className="position-relative d-flex justify-content-center"
                   style={{ marginTop: "-19px" }}
                 >
-                  <a className="btn btn-square mx-1" href="">
+                  <Link className="btn btn-square mx-1" to="">
                     <i className="fab fa-facebook-f" />
-                  </a>
-                  <a className="btn btn-square mx-1" href="">
+                  </Link>
+                  <Link className="btn btn-square mx-1" to="">
                     <i className="fab fa-twitter" />
-                  </a>
-                  <a className="btn btn-square mx-1" href="">
+                  </Link>
+                  <Link className="btn btn-square mx-1" to="">
                     <i className="fab fa-instagram" />
-                  </a>
+                  </Link>
                 </div>
                 <div className="text-center p-4">
                   <h5 className="mb-0">Full Name</h5>
@@ -72,15 +73,15 @@ export default function Team() {
                   className="position-relative d-flex justify-content-center"
                   style={{ marginTop: "-19px" }}
                 >
-                  <a className="btn btn-square mx-1" href="">
+                  <Link className="btn btn-square mx-1" to="">
                     <i className="fab fa-facebook-f" />
-                  </a>
-                  <a className="btn btn-square mx-1" href="">
+                  </Link>
+                  <Link className="btn btn-square mx-1" to="">
                     <i className="fab fa-twitter" />
-                  </a>
-                  <a className="btn btn-square mx-1" href="">
+                  </Link>
+                  <Link className="btn btn-square mx-1" to="">
                     <i className="fab fa-instagram" />
-                  </a>
+                  </Link>
                 </div>
                 <div className="text-center p-4">
                   <h5 className="mb-0">Full Name</h5>
@@ -97,15 +98,15 @@ export default function Team() {
                   className="position-relative d-flex justify-content-center"
                   style={{ marginTop: "-19px" }}
                 >
-                  <a className="btn btn-square mx-1" href="">
+                  <Link className="btn btn-square mx-1" to="">
                     <i className="fab fa-facebook-f" />
-                  </a>
-                  <a className="btn btn-square mx-1" href="">
+                  </Link>
+                  <Link className="btn btn-square mx-1" to="">
                     <i className="fab fa-twitter" />
-                  </a>
-                  <a className="btn btn-square mx-1" href="">
+                  </Link>
+                  <Link className="btn btn-square mx-1" to="">
                     <i className="fab fa-instagram" />
-                  </a>
+                  </Link>
                 </div>
                 <div className="text-center p-4">
                   <h5 className="mb-0">Full Name</h5>
