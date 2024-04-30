@@ -10,9 +10,9 @@ export default function Booking() {
           <div className="booking p-5">
             <div className="row g-5 align-items-center">
               <div className="col-md-6 text-white">
-                <h6 className="text-white text-uppercase">Booking</h6>
-                <h1 className="text-white mb-4">Online Booking</h1>
-                <p className="mb-4">
+                <h6 className="text-white text-uppercase"> Inquire now </h6>
+                <h1 className="text-white mb-4">For tour & travel </h1>
+                {/* <p className="mb-4">
                   Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
                   diam amet diam et eos. Clita erat ipsum et lorem et sit.
                 </p>
@@ -20,13 +20,20 @@ export default function Booking() {
                   Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
                   diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet
                   lorem sit clita duo justo magna dolore erat amet
+<<<<<<< HEAD
                 </p>
                 <Link className="btn btn-outline-light py-3 px-5 mt-2" to="">
                   Read More
                 </Link>
+=======
+                </p> */}
+                <a className="btn btn-outline-light py-3 px-5 mt-2" href="">
+                Inquiry now
+                </a>
+>>>>>>> a81ffe7196643ec41a3bd3bff26e085c54591bb5
               </div>
               <div className="col-md-6">
-                <h1 className="text-white mb-4">Book A Tour</h1>
+                <h1 className="text-white mb-4"> Inquiry for Tour </h1>
                 <form>
                   <div className="row g-3">
                     <div className="col-md-6">
@@ -37,7 +44,7 @@ export default function Booking() {
                           id="name"
                           placeholder="Your Name"
                         />
-                        <label htmlFor="name">Your Name</label>
+                        <label htmlFor="name"> Your Name </label>
                       </div>
                     </div>
                     <div className="col-md-6">
@@ -65,17 +72,17 @@ export default function Booking() {
                           data-target="#date3"
                           data-toggle="datetimepicker"
                         />
-                        <label htmlFor="datetime">Date &amp; Time</label>
+                        <label htmlFor="datetime"> Date </label>
                       </div>
                     </div>
                     <div className="col-md-6">
                       <div className="form-floating">
                         <select className="form-select bg-transparent" id="select1">
-                          <option value={1}>Destination 1</option>
-                          <option value={2}>Destination 2</option>
-                          <option value={3}>Destination 3</option>
+                          {/* <option value={1}>Destination 1</option> */}
+                          {/* <option value={2}>Destination 2</option>
+                          <option value={3}>Destination 3</option> */}
                         </select>
-                        <label htmlFor="select1">Destination</label>
+                        <label htmlFor="select1">Packages</label>
                       </div>
                     </div>
                     <div className="col-12">
@@ -95,7 +102,7 @@ export default function Booking() {
                         className="btn btn-outline-light w-100 py-3"
                         type="submit"
                       >
-                        Book Now
+                        Inquire Now
                       </button>
                     </div>
                   </div>
