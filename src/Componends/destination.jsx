@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Destination() {
   return (
@@ -19,7 +20,7 @@ export default function Destination() {
                   className="col-lg-12 col-md-12 wow zoomIn"
                   data-wow-delay="0.1s"
                 >
-                  <a className="position-relative d-block overflow-hidden" href="">
+                  <Link className="position-relative d-block overflow-hidden" to="">
                     <img className="img-fluid" src="img/destination-1.jpg" alt="" />
                     <div className="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">
                       30% OFF
@@ -27,13 +28,13 @@ export default function Destination() {
                     <div className="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">
                       Thailand
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div
                   className="col-lg-6 col-md-12 wow zoomIn"
                   data-wow-delay="0.3s"
                 >
-                  <a className="position-relative d-block overflow-hidden" href="">
+                  <Link className="position-relative d-block overflow-hidden" to="">
                     <img className="img-fluid" src="img/destination-2.jpg" alt="" />
                     <div className="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">
                       25% OFF
@@ -41,13 +42,13 @@ export default function Destination() {
                     <div className="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">
                       Malaysia
                     </div>
-                  </a>
+                  </Link>
                 </div>
                 <div
                   className="col-lg-6 col-md-12 wow zoomIn"
                   data-wow-delay="0.5s"
                 >
-                  <a className="position-relative d-block overflow-hidden" href="">
+                  <Link className="position-relative d-block overflow-hidden" to="">
                     <img className="img-fluid" src="img/destination-3.jpg" alt="" />
                     <div className="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">
                       35% OFF
@@ -55,7 +56,7 @@ export default function Destination() {
                     <div className="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">
                       Australia
                     </div>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -64,9 +65,9 @@ export default function Destination() {
               data-wow-delay="0.7s"
               style={{ minHeight: 350 }}
             >
-              <a
+              <Link
                 className="position-relative d-block h-100 overflow-hidden"
-                href=""
+                to=""
               >
                 <img
                   className="img-fluid position-absolute w-100 h-100"
@@ -80,7 +81,7 @@ export default function Destination() {
                 <div className="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">
                   Indonesia
                 </div>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

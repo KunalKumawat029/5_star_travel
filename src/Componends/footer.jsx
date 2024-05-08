@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return (
@@ -12,49 +13,50 @@ export default function Footer() {
           <div className="row g-5">
             <div className="col-lg-3 col-md-6">
               <h4 className="text-white mb-3">Company</h4>
-              <a className="btn btn-link" href="">
+              <Link className="btn btn-link" to="">
                 About Us
-              </a>
-              <a className="btn btn-link" href="">
+              </Link>
+              <Link className="btn btn-link" to="">
                 Contact Us
-              </a>
-              <a className="btn btn-link" href="">
+              </Link>
+              <Link className="btn btn-link" to="">
                 Privacy Policy
-              </a>
-              <a className="btn btn-link" href="">
+              </Link>
+              <Link className="btn btn-link" to="">
                 Terms &amp; Condition
-              </a>
-              <a className="btn btn-link" href="">
+              </Link>
+              <Link className="btn btn-link" to="">
                 FAQs &amp; Help
-              </a>
+              </Link>
             </div>
             <div className="col-lg-3 col-md-6">
               <h4 className="text-white mb-3">Contact</h4>
               <p className="mb-2">
                 <i className="fa fa-map-marker-alt me-3" />
-                123 Street, New York, USA
+                202PEARL BUSSINES PARK, INDORE,INDIA
               </p>
               <p className="mb-2">
                 <i className="fa fa-phone-alt me-3" />
-                +012 345 67890
+                +91 72555*****
               </p>
               <p className="mb-2">
                 <i className="fa fa-envelope me-3" />
-                info@example.com
+                5startravel@example.com
+                
               </p>
               <div className="d-flex pt-2">
-                <a className="btn btn-outline-light btn-social" href="">
+                <Link className="btn btn-outline-light btn-social" to="">
                   <i className="fab fa-twitter" />
-                </a>
-                <a className="btn btn-outline-light btn-social" href="">
+                </Link>
+                <Link className="btn btn-outline-light btn-social" to="">
                   <i className="fab fa-facebook-f" />
-                </a>
-                <a className="btn btn-outline-light btn-social" href="">
+                </Link>
+                <Link className="btn btn-outline-light btn-social" to="">
                   <i className="fab fa-youtube" />
-                </a>
-                <a className="btn btn-outline-light btn-social" href="">
+                </Link>
+                <Link className="btn btn-outline-light btn-social" to="">
                   <i className="fab fa-linkedin-in" />
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-lg-3 col-md-6">
@@ -128,22 +130,22 @@ export default function Footer() {
             <div className="row">
               <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
                 ©{" "}
-                <a className="border-bottom" href="#">
+                <Link className="border-bottom" to="#">
                   Your Site Name
-                </a>
+                </Link>
                 , All Right Reserved.
                 {/*/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. *** /*/}
                 Designed By{" "}
-                <a className="border-bottom" href="https://htmlcodex.com">
+                <Link className="border-bottom" to="https://htmlcodex.com">
                   HTML Codex
-                </a>
+                </Link>
               </div>
               <div className="col-md-6 text-center text-md-end">
                 <div className="footer-menu">
-                  <a href="">Home</a>
-                  <a href="">Cookies</a>
-                  <a href="">Help</a>
-                  <a href="">FQAs</a>
+                  <Link to="">Home</Link>
+                  <Link to="">Cookies</Link>
+                  <Link to="">Help</Link>
+                  <Link to="">FQAs</Link>
                 </div>
               </div>
             </div>

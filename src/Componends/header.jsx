@@ -10,7 +10,7 @@ export default function Header() {
           <Link to="" className="navbar-brand p-0">
             <h1 className="text-primary m-0">
               <i className="fa fa-map-marker-alt me-3" />
-              Tourist
+             5-STAR TOUR & TRAVEL
             </h1>
             {/* <img src="img/logo.png" alt="Logo"> */}
           </Link>
@@ -24,7 +24,7 @@ export default function Header() {
           </button>
           <div className="collapse navbar-collapse" id="navbarCollapse">
             <div className="navbar-nav ms-auto py-0">
-              <Link to="/" className="nav-item nav-link active">
+              <Link to="/" className="nav-item nav-link ">
                 Home
               </Link>
               <Link to="about" className="nav-item nav-link">

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Topbar() {
   return (
@@ -13,15 +14,15 @@ export default function Topbar() {
             >
               <small className="me-3 text-light">
                 <i className="fa fa-map-marker-alt me-2" />
-                123 Street, New York, USA
+                202PEARL BUSSINES PARK, INDORE,INDIA
               </small>
               <small className="me-3 text-light">
                 <i className="fa fa-phone-alt me-2" />
-                +012 345 6789
+                +91 72555*****
               </small>
               <small className="text-light">
                 <i className="fa fa-envelope-open me-2" />
-                info@example.com
+                5startravel@example.com
               </small>
             </div>
           </div>
@@ -30,36 +31,36 @@ export default function Topbar() {
               className="d-inline-flex align-items-center"
               style={{ height: 45 }}
             >
-              <a
+              <Link
                 className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-                href=""
+                  to=""
               >
                 <i className="fab fa-twitter fw-normal" />
-              </a>
-              <a
+              </Link>
+              <Link
                 className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-                href=""
+                to=""
               >
                 <i className="fab fa-facebook-f fw-normal" />
-              </a>
-              <a
+              </Link>
+              <Link
                 className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-                href=""
+                to=""
               >
                 <i className="fab fa-linkedin-in fw-normal" />
-              </a>
-              <a
+              </Link>
+              <Link
                 className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-                href=""
+                to=""
               >
                 <i className="fab fa-instagram fw-normal" />
-              </a>
-              <a
+              </Link>
+              <Link
                 className="btn btn-sm btn-outline-light btn-sm-square rounded-circle"
-                href=""
+                to=""
               >
                 <i className="fab fa-youtube fw-normal" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>

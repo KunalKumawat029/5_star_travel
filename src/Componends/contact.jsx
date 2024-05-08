@@ -28,7 +28,7 @@ export default function Contact() {
                 </div>
                 <div className="ms-3">
                   <h5 className="text-primary">Office</h5>
-                  <p className="mb-0">123 Street, New York, USA</p>
+                  <p className="mb-0">202PEARL BUSSINES PARK, INDORE,INDIA</p>
                 </div>
               </div>
               <div className="d-flex align-items-center mb-4">
@@ -40,7 +40,7 @@ export default function Contact() {
                 </div>
                 <div className="ms-3">
                   <h5 className="text-primary">Mobile</h5>
-                  <p className="mb-0">+012 345 67890</p>
+                  <p className="mb-0">++91 72555*****</p>
                 </div>
               </div>
               <div className="d-flex align-items-center">
@@ -52,7 +52,7 @@ export default function Contact() {
                 </div>
                 <div className="ms-3">
                   <h5 className="text-primary">Email</h5>
-                  <p className="mb-0">info@example.com</p>
+                  <p className="mb-0"> 5startravel@example.com</p>
                 </div>
               </div>
             </div>

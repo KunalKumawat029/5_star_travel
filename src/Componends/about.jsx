@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function About() {
   return (
@@ -75,9 +76,9 @@ export default function About() {
                   </p>
                 </div>
               </div>
-              <a className="btn btn-primary py-3 px-5 mt-2" href="">
+               <Link className="btn btn-primary py-3 px-5 mt-2" to="#">
                 Read More
-              </a>
+              </Link> 
             </div>
           </div>
         </div>
