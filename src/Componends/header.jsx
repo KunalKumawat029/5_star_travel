@@ -62,6 +62,7 @@ export default function Header() {
               <Link to="/contact" className="nav-item nav-link">
                 Contact
               </Link>
+              
             </div>
           </div>
         </nav>

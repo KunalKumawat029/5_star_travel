@@ -11,15 +11,18 @@ import BookingPage from "./Pages/bookingPage";
 import GuidPage from "./Pages/guidPage";
 import TestimonialPage from "./Pages/testimonialPage";
 import ContactPage from "./Pages/contactPage";
+import Login from "./admin/adminComponent/login";
 
 
 function App() {
   return (
     <>
     <Topbar/>
+
     <Header/>
     <Routes>
       <Route path="/" element={<HomePage/>}/>
+      <Route path="/login" element={<Login/>}/>
       <Route path="/about" element={<AboutPage/>}/>
       <Route path="/services" element={<ServicesPage/>}/>
       <Route path="/package" element={<PackegPage/>}/>

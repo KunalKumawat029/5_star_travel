@@ -3,7 +3,7 @@ import React from 'react'
 export default function Process() {
   return (
     <>
-      {/* Process Start */}
+
       <div className="container-xxl py-5">
         <div className="container">
           <div className="text-center pb-4 wow fadeInUp" data-wow-delay="0.1s">
@@ -76,7 +76,7 @@ export default function Process() {
           </div>
         </div>
       </div>
-      {/* Process Start */}
+      
     </>
   )
 }
